@@ -1,4 +1,4 @@
-package ru.kyamshanov
+package ru.kyamshanov.plugin.hello
 
 import org.pf4j.Plugin
 import org.slf4j.LoggerFactory

@@ -5,5 +5,7 @@ slf4j = "2.0.13"
 
 [libraries]
 pf4j = { module = "org.pf4j:pf4j", version.ref = "pf4j" }
-slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "slf4j"}
+slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "slf4j" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+
 [plugins]

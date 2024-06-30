@@ -1,6 +1,6 @@
 plugins {
     kotlin("jvm")
-    id("com.github.johnrengelman.shadow")
+    kotlin("kapt")
 }
 
 group = "ru.kyamshanov"
@@ -11,17 +11,11 @@ repositories {
 }
 
 dependencies {
-    testImplementation(kotlin("test"))
-
     implementation(libs.pf4j)
+    kapt(libs.pf4j)
     implementation(libs.slf4j.simple)
-    implementation(projects.api)
-}
 
-tasks.withType<Jar> {
-    manifest {
-        attributes["Main-Class"] = "ru.kyamshanov.core.MainKt"
-    }
+    testImplementation(kotlin("test"))
 }
 
 tasks.test {

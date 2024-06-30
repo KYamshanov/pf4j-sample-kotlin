@@ -5,34 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a44d43b-6232-43c5-a89c-dba38f0d4469" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-plugin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-plugin/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-plugin/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-plugin/src/main/kotlin/HelloPlugin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/plugin-hello-plugin-1.0-SNAPSHOT.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/ru/kyamshanov/api/VersionProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-logic/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-logic/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-logic/src/main/kotlin/plugin-assemble.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-plugin/src/main/java/ru/kyamshanov/plugin/hello/HelloVersionProvider.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/kotlin/ru/kyamshanov/core/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-plugin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/hello-plugin/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-plugin/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hello-plugin/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-plugin/src/main/kotlin/HelloPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hello-plugin/src/main/java/ru/kyamshanov/plugin/hello/HelloPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/plugin-hello-plugin-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/plugin-hello-plugin-1.0-SNAPSHOT.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -61,52 +64,54 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="pf4j-sample-kotlin" type="f1a62948:ProjectNode" />
+                <item name="pf4j-sample-kotlin" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pf4j-sample-kotlin" type="f1a62948:ProjectNode" />
+                <item name="pf4j-sample-kotlin" type="2d1252cf:ModuleNode" />
                 <item name="core" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="pf4j-sample-kotlin" type="f1a62948:ProjectNode" />
+                <item name="pf4j-sample-kotlin" type="2d1252cf:ModuleNode" />
                 <item name="core" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="pf4j-sample-kotlin" type="f1a62948:ProjectNode" />
+                <item name="pf4j-sample-kotlin" type="2d1252cf:ModuleNode" />
                 <item name="core" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
+                <item name="shadow" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="pf4j-sample-kotlin" type="f1a62948:ProjectNode" />
-                <item name="core" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="pf4j-sample-kotlin" type="f1a62948:ProjectNode" />
+                <item name="pf4j-sample-kotlin" type="2d1252cf:ModuleNode" />
                 <item name="hello-plugin" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="pf4j-sample-kotlin" type="f1a62948:ProjectNode" />
+                <item name="pf4j-sample-kotlin" type="2d1252cf:ModuleNode" />
                 <item name="hello-plugin" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="pf4j-sample-kotlin" type="f1a62948:ProjectNode" />
+                <item name="pf4j-sample-kotlin" type="2d1252cf:ModuleNode" />
                 <item name="hello-plugin" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
+                <item name="plugin" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="pf4j-sample-kotlin" type="f1a62948:ProjectNode" />
-                <item name="hello-plugin" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
+                <item name="build-logic" type="2d1252cf:ModuleNode" />
               </path>
             </expand>
             <select />
@@ -115,9 +120,30 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "KYamshanov"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/KYamshanov/pf4j-sample-kotlin.git",
+    "accountId": "44477e2b-b498-4a61-9f31-513d7347ce2c"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -133,16 +159,24 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Gradle.Build pf4j-sample-kotlin.executor": "Run",
     "Gradle.Download Sources.executor": "Run",
+    "Gradle.pf4j-sample-kotlin [:core:shadowJar].executor": "Run",
     "Gradle.pf4j-sample-kotlin [hello-plugin:plugin].executor": "Run",
+    "Gradle.pf4j-sample-kotlin:api [:shadowJar].executor": "Run",
+    "Gradle.pf4j-sample-kotlin:api [shadowJar].executor": "Run",
+    "Gradle.pf4j-sample-kotlin:core [shadowJar].executor": "Run",
+    "Gradle.pf4j-sample-kotlin:hello-plugin [assemble].executor": "Run",
     "Gradle.pf4j-sample-kotlin:hello-plugin [build].executor": "Run",
+    "Gradle.pf4j-sample-kotlin:hello-plugin [javadoc].executor": "Run",
     "Gradle.pf4j-sample-kotlin:hello-plugin [plugin].executor": "Run",
+    "Gradle.pf4j-sample-kotlin:hello-plugin [put-in-plugins].executor": "Run",
+    "JAR Application.core-1.0-SNAPSHOT-all.jar.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/undfr/apps/IdeaProjects/Intellij IDEA/pf4j/pf4j-sample-kotlin/plugins",
+    "last_opened_file_path": "D:/undfr/apps/IdeaProjects/Intellij IDEA/pf4j/pf4j-sample-kotlin/api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -159,13 +193,22 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\undfr\apps\IdeaProjects\Intellij IDEA\pf4j\pf4j-sample-kotlin\api" />
       <recent name="D:\undfr\apps\IdeaProjects\Intellij IDEA\pf4j\pf4j-sample-kotlin\plugins" />
       <recent name="D:\undfr\apps\IdeaProjects\Intellij IDEA\pf4j\pf4j-sample-kotlin\hello-plugin" />
       <recent name="D:\undfr\apps\IdeaProjects\Intellij IDEA\pf4j\pf4j-sample-kotlin\core" />
       <recent name="D:\undfr\apps\IdeaProjects\Intellij IDEA\pf4j\pf4j-sample-kotlin\core\src\main\resources\plugins" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\undfr\apps\IdeaProjects\Intellij IDEA\pf4j\pf4j-sample-kotlin\core\src\main\kotlin\ru\kyamshanov\core" />
       <recent name="D:\undfr\apps\IdeaProjects\Intellij IDEA\pf4j\pf4j-sample-kotlin" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="ru.kyamshanov.plugin.hello" />
+      <recent name="ru.kyamshanov.api" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.kyamshanov.api" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -174,18 +217,18 @@
     </option>
   </component>
   <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="pf4j-sample-kotlin [hello-plugin:plugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="pf4j-sample-kotlin:core [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="hello-plugin:plugin" />
+            <option value="shadowJar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -196,7 +239,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="pf4j-sample-kotlin:hello-plugin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="pf4j-sample-kotlin:hello-plugin [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/hello-plugin" />
@@ -207,7 +250,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="assemble" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -218,7 +261,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="pf4j-sample-kotlin:hello-plugin [plugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="pf4j-sample-kotlin:hello-plugin [put-in-plugins]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/hello-plugin" />
@@ -229,7 +272,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="plugin" />
+            <option value="put-in-plugins" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -238,21 +281,35 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="core-1.0-SNAPSHOT-all.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/core/build/libs/core-1.0-SNAPSHOT-all.jar" />
+      <option name="VM_PARAMETERS" value="-Dorg.slf4j.simpleLogger.defaultLogLevel=trace" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2" />
     </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.kyamshanov.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="ru.kyamshanov.core.MainKt" />
       <module name="pf4j-sample-kotlin.core.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Gradle.pf4j-sample-kotlin:core [shadowJar]" />
+      <item itemvalue="Gradle.pf4j-sample-kotlin:hello-plugin [assemble]" />
+      <item itemvalue="Gradle.pf4j-sample-kotlin:hello-plugin [put-in-plugins]" />
+      <item itemvalue="JAR Application.core-1.0-SNAPSHOT-all.jar" />
+      <item itemvalue="Kotlin.MainKt" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Gradle.pf4j-sample-kotlin:hello-plugin [plugin]" />
-        <item itemvalue="Gradle.pf4j-sample-kotlin [hello-plugin:plugin]" />
-        <item itemvalue="Gradle.pf4j-sample-kotlin:hello-plugin [build]" />
+        <item itemvalue="Gradle.pf4j-sample-kotlin:hello-plugin [put-in-plugins]" />
+        <item itemvalue="JAR Application.core-1.0-SNAPSHOT-all.jar" />
+        <item itemvalue="Gradle.pf4j-sample-kotlin:core [shadowJar]" />
+        <item itemvalue="Gradle.pf4j-sample-kotlin:hello-plugin [assemble]" />
       </list>
     </recent_temporary>
   </component>
@@ -274,6 +331,7 @@
       <updated>1719656787248</updated>
       <workItem from="1719656788235" duration="2967000" />
       <workItem from="1719659816622" duration="3225000" />
+      <workItem from="1719725936627" duration="12791000" />
     </task>
     <servers />
   </component>
@@ -283,12 +341,34 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../.gradle/caches/modules-2/files-2.1/org.pf4j/pf4j/3.12.0/2a8ae69fbadbde8e1a7d2354e5febddc058b76de/pf4j-3.12.0-sources.jar!/org/pf4j/AbstractExtensionFinder.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../.gradle/caches/modules-2/files-2.1/org.pf4j/pf4j/3.12.0/2a8ae69fbadbde8e1a7d2354e5febddc058b76de/pf4j-3.12.0-sources.jar!/org/pf4j/AbstractExtensionFinder.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../../.gradle/caches/modules-2/files-2.1/org.pf4j/pf4j/3.12.0/2a8ae69fbadbde8e1a7d2354e5febddc058b76de/pf4j-3.12.0-sources.jar!/org/pf4j/AbstractPluginManager.java</url>
-          <line>792</line>
-          <option name="timeStamp" value="1" />
+          <url>jar://$PROJECT_DIR$/../../../../../.gradle/caches/modules-2/files-2.1/org.pf4j/pf4j/3.12.0/2a8ae69fbadbde8e1a7d2354e5febddc058b76de/pf4j-3.12.0-sources.jar!/org/pf4j/AbstractExtensionFinder.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="kotlin-line">
+          <url>file://$PROJECT_DIR$/hello-plugin/src/main/java/ru/kyamshanov/plugin/hello/HelloPlugin.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>
