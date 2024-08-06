@@ -44,3 +44,4 @@ bin/
 /plugins/*/
 .idea/*
 /.kotlin/
+.idea

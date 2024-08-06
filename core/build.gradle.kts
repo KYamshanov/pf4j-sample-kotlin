@@ -27,6 +27,3 @@ tasks.withType<Jar> {
 tasks.test {
     useJUnitPlatform()
 }
-kotlin {
-    jvmToolchain(17)
-}
